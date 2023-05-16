@@ -1,0 +1,6 @@
+Q_1: Correct Answer!  - Your answer: 3, Correct answer: 3
+
+Q_2: Correct Answer!  - Your answer: 2, Correct answer: 2
+
+#==========SCORE==================#
+Score : , 2, /, 2, Total:, 100, %
