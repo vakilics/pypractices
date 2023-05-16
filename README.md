@@ -1,3 +1,3 @@
 # pypractices
-simple and useful codes
+** Simple and useful codes
 Thanks to https://www.udemy.com/course/the-python-mega-course/
