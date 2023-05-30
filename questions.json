@@ -1,0 +1,7 @@
+[{"question_text":"What are dolphins?",
+  "alternatives": ["Animal","Fish","Mammals","Birds"],
+  "correct_answer": 3},
+
+ {"question_text":"What occupys most of Eath's surface?   ",
+  "alternatives": ["Land","Water"],
+  "correct_answer":2}]
