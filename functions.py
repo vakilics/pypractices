@@ -1,6 +1,6 @@
 #Funcs to be sued in other modules
-
-def get_todos(filename="save-todo.txt"):
+FILEPATH = "save-todo.txt"
+def get_todos(filename=FILEPATH):
     with open(filename, 'r') as file_local:
         todos_local = file_local.readlines()
     return todos_local
