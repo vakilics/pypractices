@@ -93,7 +93,7 @@ while True:
         print(message)
 
     elif userinput.startswith('clear'):
-        with open('../save-todo.txt', 'r+') as file:
+        with open('../../save-todo.txt', 'r+') as file:
             file.truncate()
 
     elif userinput.startswith("exit"):
