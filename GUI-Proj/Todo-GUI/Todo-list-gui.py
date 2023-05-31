@@ -25,6 +25,9 @@ while True:
             new_todo = values['todo'] + "\n"
             todos.append(new_todo)
             functions.write_todos(todos)
+        case sg.WIN_CLOSED:   # if we click on close icon, then will no more error happens!
+            break
+
 
 print("Test!")
 window.close()
