@@ -2,16 +2,16 @@
 
 '''
 ##READ and WRITE functions
-#NOTE: to not pass filename (eg: save-todo.txt) from within all blocks, we can set it as default like: fucn(arg="defalult_name")
+#NOTE: to not pass filename (eg: todos.txt) from within all blocks, we can set it as default like: fucn(arg="defalult_name")
 
-def get_todos(filename="save-todo.txt"):
+def get_todos(filename="todos.txt"):
     with open(filename, 'r') as file_local:
         todos_local = file_local.readlines()
     return todos_local
 
 #Note: if we use a default parameter, then non-default parameters should be placed before it!
-#def write_todos(filepath="save-todo.txt", todos_arg):
-def write_todos(todos_arg, filepath="save-todo.txt"):
+#def write_todos(filepath="todos.txt", todos_arg):
+def write_todos(todos_arg, filepath="todos.txt"):
     with open(filepath, 'w') as file:
         file.writelines(todos_arg)
 '''
@@ -29,18 +29,18 @@ while True:
         #todo = input("Enter a todo: ") + "\n"
         todo = userinput[4:]
 
-        #todos = get_todos(filename='save-todo.txt')
+        #todos = get_todos(filename='todos.txt')
         todos = get_todos()
         todos.append(todo + '\n')
-        #write_todos(filepath="save-todo.txt", todos_arg=todos)
+        #write_todos(filepath="todos.txt", todos_arg=todos)
                         ###OR####
-        #write_todos(filepath="save-todo.txt", todos_arg=todos)
+        #write_todos(filepath="todos.txt", todos_arg=todos)
                         ###OR###
         write_todos(todos)
 
 
     elif userinput.startswith("show"):
-        #todos = get_todos(filename='save-todo.txt')
+        #todos = get_todos(filename='todos.txt')
         todos = get_todos()
 
 
@@ -61,7 +61,7 @@ while True:
             number = number - 1  # haha, indexing issue!
             # print(existing_todo = todos[number])
 
-            # todos = get_todos(filename='save-todo.txt')
+            # todos = get_todos(filename='todos.txt')
             todos = get_todos()
 
             new_todo = input("Enter new todo: ")
@@ -80,7 +80,7 @@ while True:
     elif userinput.startswith("complete"):
         number = int(input('# of todo to complete: '))
 
-        # todos = get_todos(filename='save-todo.txt')
+        # todos = get_todos(filename='todos.txt')
         todos = get_todos()
 
         index = number - 1

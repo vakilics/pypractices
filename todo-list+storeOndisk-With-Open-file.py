@@ -11,7 +11,7 @@ while True:
 
             todos.append(todo)
             #Instead of bellow 3 lines, used with open....
-            #file = open('save-todo.txt', 'w')  #SAVE DATA: 'w': write and overwrite!
+            #file = open('todos.txt', 'w')  #SAVE DATA: 'w': write and overwrite!
             #file.writelines(todos)
             #file.close()
             with open('save-todo.txt', 'w') as file:
