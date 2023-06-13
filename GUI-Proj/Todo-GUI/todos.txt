@@ -1,13 +1,11 @@
 test
 okokhamid
 tttttttttestet
-YESgggggg
-SALAM-ALLGo to school
+NooSALAM-ALLGo to school
 Hiiiiiiiii
 tttttttt
 SALAM
-My new
-My new
+oldMy new
 My new
 My new
 My new
@@ -15,3 +13,7 @@ My new todo
 sdfasdf
 DDDDDDDDDD
 okok
+Goo
+NooSALAM-ALLGo to school
+
+power1
