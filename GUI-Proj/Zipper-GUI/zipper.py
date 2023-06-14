@@ -17,7 +17,9 @@ window = sg.Window("File Compressor",
                            [label2, input2, choose_button2],
                            [compress_button, output_label]])
 
-
+#text = sg.Text("Welcome")
+#button = sg.Button("DELETEokok", key="delete")
+#window = sg.Window('My App', layout=[[text], [button]])
 
 while True:
     event, values = window.read()
