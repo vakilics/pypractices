@@ -1,6 +1,6 @@
 # NOTE: This script runs only on your local IDE
 import PySimpleGUI as sg
-from converting import convert
+from convert import convert
 
 feet_label = sg.Text("Enter feet: ")
 feet_input = sg.Input(key="feet")
