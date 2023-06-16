@@ -80,6 +80,9 @@ while True:
         case 'todos':    #to show the text we select to edit, in Input box!
             window['todo'].update(value=values['todos'][0])
 
+        case 'Exit':
+            break
+
         case sg.WIN_CLOSED:   # if we click on close icon, then will no more error happens!
             #exit()
             break
