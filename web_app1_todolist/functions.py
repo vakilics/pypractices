@@ -1,6 +1,6 @@
-# Funcs to be sued in other modules
-FILE_PATH = "/pypractices/GUI-Proj/Todo-GUI/todos.txt"
+#Functions that will be used in other modules
 
+FILE_PATH = "todos.txt"
 
 def get_todos(filename=FILE_PATH):
     with open(filename, 'r') as file_local:
