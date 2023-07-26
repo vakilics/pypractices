@@ -1,5 +1,13 @@
-#easty to integrate with web apps using "stramlit"
-# By refreshing the web page, python code will be executed from top to button!
+'''
+- Easty to integrate with web apps using "stramlit"
+- Run the web-app: streamlit run web.py
+- By refreshing the web page, python code will be executed from top to button!
+NOTE: to publish the web_app:
+ 1. Collect the running requirements existing in machine where this app is running:
+    * pip freeze > requirements.txt  # this includes all python-modules required for server which runs the web app!
+
+'''
+
 import streamlit as st
 import functions
 
